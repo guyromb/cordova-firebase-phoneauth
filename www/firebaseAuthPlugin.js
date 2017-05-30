@@ -4,7 +4,7 @@ function FirebaseAuth(options) {
 
     options = options || {};
     var allowDomains = options.allowDomains ? [].concat(options.allowDomains) : null;
-    exec(dispatchEvent, null, 'FirebaseAuthPlugin', 'initialize', [allowDomains]);
+    exec(dispatchEvent, null, 'FirebasePhoneAuthPlugin', 'initialize', [allowDomains]);
 
     this.getToken = function(success, failure) {
 
@@ -18,9 +18,14 @@ function FirebaseAuth(options) {
         }
     };
 
-    this.signIn = function () {
+    this.sendSMS = function () {
 
-        return exec(null, null, 'FirebaseAuthPlugin', 'signIn', []);
+        return exec(null, null, 'FirebaseAuthPlugin', 'sendSMS', []);
+    };
+    
+    this.verifyCode = function () {
+
+        return exec(null, null, 'FirebaseAuthPlugin', 'verifyCode', []);
     };
 
     this.signOut = function () {
