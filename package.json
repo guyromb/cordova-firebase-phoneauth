@@ -1,10 +1,10 @@
 {
-  "name": "cordova-plugin-firebase-auth",
-  "version": "1.0.5",
-  "description": "Adds support for Firebase authentication.",
+  "name": "cordova-firebase-phoneauth",
+  "version": "1.0.0",
+  "description": "Adds support for Firebase phone authentication.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/blakgeek/cordova-plugin-firebase-auth-google.git"
+    "url": "https://github.com/guyromb/cordova-firebase-phoneauth.git"
   },
   "keywords": [
     "ecosystem:cordova",
@@ -14,10 +14,10 @@
     "authentication",
     "auth"
   ],
-  "author": "Carlos \"blakgeek\" Lawton",
+  "author": "Guy Rombaut",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/blakgeek/cordova-plugin-firebase-auth-google/issues"
+    "url": "https://github.com/guyromb/cordova-firebase-phoneauth/issues"
   },
   "homepage": "https://github.com/blakgeek/cordova-plugin-firebase-auth-google",
   "dependencies": {
