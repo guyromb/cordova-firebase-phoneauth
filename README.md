@@ -1,2 +1,2 @@
-# Firebase Auth #
-Adds support for Firebase Phone Number authentication to your Cordova or PhoneGap apps.
+# Firebase Native Phone Auth #
+Adds support for Native Firebase Phone Number authentication to your Cordova or PhoneGap apps.
